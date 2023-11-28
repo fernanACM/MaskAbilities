@@ -1,0 +1,67 @@
+STEVE: "§r§l§bSTEVE SIGMA"
+STEVE_LORE:
+  - "§r§7- Velocidad I"
+  - "§7- Fuerza I"
+
+DRAGON: "§r§l§cDRAGON DE PANA"
+DRAGON_LORE:
+  - "§r§7- Fuerza I"
+  - "§7- Velocidad I"
+
+SKELETON: "§r§l§aESQUELETO OJITOS"
+SKELETON_LORE:
+  - "§r§7- Fuerza II"
+  - "§7- Resistencia II"
+  - "§7- Velocidad II"
+
+ZOMBIE: "§r§l§eZOMBI VIVO"
+ZOMBIE_LORE:
+  - "§r§7- Fuerza II"
+  - "§7- Velocidad II"
+  - "§7- Resistencia"
+
+WITHER: "§r§lWITHER SIPE"
+WITHER_LORE:
+  - "§r§7- Debilidad II"
+  - "§7- Velocidad II"
+  - "§7- Invisibilidad"
+
+CREEPER: "§r§l§dCREEPER ARABE"
+CREEPER_LORE:
+  - "§r§7- Regeneración I"
+  - "§7- Velocidad I"
+
+GEARS: "§r§l§aGEARS V"
+GEARS_LORE:
+  - "§r§7- Regeneración Insta I"
+  - "§7- Salto II"
+  - "§7- Mineria I"
+  - "§7- Fuerza II"
+
+Potions:
+  steve:
+    - "speed:1"
+    - "strength:1"
+  creeper:
+    - "regeneration:1"
+    - "speed:1"
+  dragon:
+    - "strength:1"
+    - "speed:1"
+  skeleton:
+    - "strength:2"
+    - "resistance:2"
+    - "speed:2"
+  zombie:
+    - "strength:2"
+    - "speed:2"
+    - "resistance:1"
+  wither:
+    - "weakness:2"
+    - "speed:2"
+    - "invisibility:1"
+  gears: 
+    - "instant_health:1"
+    - "jump_boost:2"
+    - "haste:1"
+    - "strength:2"

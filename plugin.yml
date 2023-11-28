@@ -1,0 +1,24 @@
+
+#      _       ____   __  __ 
+#     / \     / ___| |  \/  |
+#    / _ \   | |     | |\/| |
+#   / ___ \  | |___  | |  | |
+#  /_/   \_\  \____| |_|  |_|
+# The creator of this plugin was fernanACM.
+# https://github.com/fernanACM
+
+name: MaskAbilities
+main: fernanACM\MaskAbilities\Loader
+version: 2.0.0-ACM
+api: 5.3.0
+author: fernanACM
+
+commands:
+  maskabilities:
+    permission: mask.admin
+    description: "Máscaras con habilidades por fernanACM"
+    aliases: ["maskabi", "mask"]
+
+permissions:
+  mask.admin:
+    default: op
