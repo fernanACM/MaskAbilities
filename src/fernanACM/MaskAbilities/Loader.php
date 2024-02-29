@@ -29,6 +29,7 @@ use pocketmine\item\enchantment\EnchantmentInstance;
 use pocketmine\item\enchantment\VanillaEnchantments;
 
 use muqsit\invmenu\InvMenu;
+use muqsit\invmenu\InvMenuHandler;
 use muqsit\invmenu\transaction\InvMenuTransaction;
 use muqsit\invmenu\transaction\InvMenuTransactionResult;
 use muqsit\invmenu\type\InvMenuTypeIds;
@@ -60,6 +61,7 @@ class Loader extends PluginBase{
         $this->saveResource("config.yml");
         $this->config = new Config($this->getDataFolder(). "config.yml");
         Server::getInstance()->getPluginManager()->registerEvents(new Event($this), $this);
+        if(!InvMenuHandler::isRegistered()) InvMenuHandler::register($this);
     }
 
     /**
